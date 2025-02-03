@@ -13,7 +13,7 @@ const router = {
     if (typeof route === 'function') {
       route();
     } else {
-      console.warn(`No route defined for ${path}`);
+      console.log(`No route defined for ${path}`);
     }
   },
   navigate(path) {
